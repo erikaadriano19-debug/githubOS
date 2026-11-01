@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>githubOS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-wrap">
+      <div class="browser-shell">
+        <div class="browser-topbar">
+          <div class="browser-controls">
+            <span class="dot red"></span>
+            <span class="dot yellow"></span>
+            <span class="dot green"></span>
+          </div>
+          <div class="browser-address">
+            <span class="address-lock">github.com</span>
+            <span class="address-title">githubOS</span>
+          </div>
+          <div class="browser-tools">
+            <span class="tool"></span>
+            <span class="tool"></span>
+          </div>
+        </div>
+
+        <div class="phone-frame">
+          <div class="phone-notch"></div>
+
+          <div class="phone-screen">
+            <div class="status-bar">
+              <span id="clock">9:41</span>
+              <div class="status-icons">
+                <span class="signal"></span>
+                <span class="wifi"></span>
+                <span class="battery"></span>
+              </div>
+            </div>
+
+            <header class="home-header">
+              <div>
+                <p class="greeting">Good morning</p>
+                <h1>githubOS</h1>
+              </div>
+              <button class="profile-button">GH</button>
+            </header>
+
+            <div class="search-bar">
+              <span>Search apps, repos, issues</span>
+            </div>
+
+            <section class="app-section">
+              <div class="app-grid">
+                <button class="app-card app-github active">
+                  <span class="app-icon">G</span>
+                  <span class="app-label">GitHub</span>
+                </button>
+
+                <button class="app-card app-code">
+                  <span class="app-icon">⌘</span>
+                  <span class="app-label">Code</span>
+                </button>
+
+                <button class="app-card app-issues">
+                  <span class="app-icon">!</span>
+                  <span class="app-label">Issues</span>
+                </button>
+
+                <button class="app-card app-pull">
+                  <span class="app-icon">↻</span>
+                  <span class="app-label">PRs</span>
+                </button>
+
+                <button class="app-card app-actions">
+                  <span class="app-icon">◎</span>
+                  <span class="app-label">Actions</span>
+                </button>
+
+                <button class="app-card app-packages">
+                  <span class="app-icon">▣</span>
+                  <span class="app-label">Packages</span>
+                </button>
+              </div>
+            </section>
+
+            <section class="widget-panel">
+              <div class="widget-head">
+                <span>Overview</span>
+                <span class="widget-pill">Live</span>
+              </div>
+
+              <div class="widget-content">
+                <div class="mini-card">
+                  <p>Commits today</p>
+                  <strong>18</strong>
+                </div>
+                <div class="mini-card">
+                  <p>Builds</p>
+                  <strong>4/5</strong>
+                </div>
+                <div class="mini-card">
+                  <p>Focus</p>
+                  <strong>Ship</strong>
+                </div>
+              </div>
+            </section>
+          </div>
+
+          <nav class="dock">
+            <button class="dock-item active">⌂</button>
+            <button class="dock-item">⌁</button>
+            <button class="dock-item">◫</button>
+            <button class="dock-item">◎</button>
+            <button class="dock-item">⋯</button>
+          </nav>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
